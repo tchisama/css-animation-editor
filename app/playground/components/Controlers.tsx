@@ -4,7 +4,7 @@ type Props = {}
 
 function Controlers({}: Props) {
   return (
-    <div>Controlers</div>
+    <div className='w-[500px] border'>Controlers</div>
   )
 }
 
