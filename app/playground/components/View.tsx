@@ -1,10 +1,13 @@
+import { Button } from '@nextui-org/react'
 import React from 'react'
 
 type Props = {}
 
 function View({}: Props) {
   return (
-    <div>View</div>
+    <div>
+        <Button>hello world</Button>
+    </div>
   )
 }
 
