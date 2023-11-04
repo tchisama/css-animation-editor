@@ -10,3 +10,7 @@
 
 @media (prefers-color-scheme: dark) {
 }
+.ReactVirtualized__Grid{
+  height: fit-content;
+  overflow: hidden;
+}
