@@ -1,6 +1,7 @@
 "use client"
 import React,{useEffect, useState} from 'react'
 import {Tabs, Tab} from "@nextui-org/react";
+import Timeline from './global/Timeline';
 
 type Props = {}
 
@@ -12,6 +13,7 @@ function TimeLinee({}: Props) {
             <Tabs variant='underlined' aria-label="Options">
                 <Tab key="timeline" title="Timeline"></Tab>
             </Tabs>
+            <Timeline/>
         </div>  
     </div>
   )
